@@ -3,39 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- =================================================================== -->
-    <!-- =============== META TAGS ESTRATÉGICAS (SEO CORE) =============== -->
-    <!-- =================================================================== -->
-    
-    <!-- Título da Página (Fator #1 de Ranqueamento) -->
     <title>Aluguel de Brinquedos na Penha, SP | Tutty Locação para Festas</title>
-    
-    <!-- Descrição (Seu "anúncio" no Google) -->
     <meta name="description" content="Aluguel de cama elástica, pula pula, tobogã inflável e futebol de sabão na Penha, SP. ✅ Brinquedos seguros e de qualidade para festas infantis e eventos. Peça seu orçamento via WhatsApp!">
-    
-    <!-- Palavras-chave (Ainda relevante para alguns buscadores e para referência) -->
     <meta name="keywords" content="aluguel de brinquedos penha, locação de brinquedos penha sp, aluguel de cama elástica penha, aluguel de pula pula penha, futebol de sabão para alugar, tobogã inflável sp, brinquedos para festa infantil zona leste, tutty brinquedos, aluguel de brinquedos para eventos corporativos sp, orçamento locação de brinquedos">
-    
-    <!-- URL Canônica (Evita conteúdo duplicado) -->
-    <link rel="canonical" href="https://www.tuttybrinquedos.com.br"> <!-- Substitua pela sua URL final -->
-    
-    <!-- Robots (Instrui os robôs do Google a indexar a página) -->
+    <link rel="canonical" href="https://www.tuttybrinquedos.com.br">
     <meta name="robots" content="index, follow">
-
-    <!-- =================================================================== -->
-    <!-- ================ OPEN GRAPH (COMPARTILHAMENTO SOCIAL) ============= -->
-    <!-- =================================================================== -->
     <meta property="og:title" content="Tutty Locação de Brinquedos | Diversão Garantida na sua Festa!">
     <meta property="og:description" content="Aluguel de brinquedos infláveis de alta qualidade na Penha e toda São Paulo. Transforme seu evento em uma experiência inesquecível.">
     <meta property="og:image" content="logo.webp">
-    <meta property="og:url" content="https://www.tuttybrinquedos.com.br"> <!-- Sua URL final -->
+    <meta property="og:url" content="https://www.tuttybrinquedos.com.br">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
-
-    <!-- =================================================================== -->
-    <!-- ================= SCHEMA.ORG (SUPER SEO LOCAL) ==================== -->
-    <!-- =================================================================== -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -63,18 +41,11 @@
       ]
     }
     </script>
-    
-    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- =================================================================== -->
-    <!-- ======================= ESTILOS E FONTES ======================== -->
-    <!-- =================================================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
     <style>
         :root {
             --primary-blue: #60cff8;
@@ -295,6 +266,9 @@
             margin-bottom: 15px;
             color: var(--dark-blue);
         }
+        .product-card h3.multiline-title {
+            line-height: 1.2;
+        }
         .product-card ul {
             list-style: none;
             padding: 0;
@@ -436,20 +410,29 @@
             padding: 50px 0;
             text-align: center;
         }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            margin: 20px 0;
+        }
         .social-links a {
             color: var(--text-light);
-            margin: 0 15px;
             font-size: 28px;
-            display: inline-block;
+            display: inline-flex; /* Alterado para flexbox */
+            align-items: center;
+            justify-content: center;
             transition: color 0.3s ease, transform 0.3s ease;
+            text-decoration: none; /* [CORREÇÃO] Remove o sublinhado */
         }
         .social-links a:hover {
             color: var(--primary-blue);
             transform: translateY(-3px);
         }
         .social-links svg, .social-links .fab {
-            width: 28px;
-            height: 28px;
+            width: 1em;
+            height: 1em;
         }
         
         /* --- Botão Flutuante --- */
@@ -468,7 +451,7 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.2);
             z-index: 100;
             transition: transform 0.3s ease;
-            text-decoration: none; /* [CORREÇÃO] Remove o sublinhado do link */
+            text-decoration: none;
         }
         .floating-whatsapp .fab {
             font-size: 35px;
@@ -501,6 +484,9 @@
                 padding: 60px 0; 
             }
             .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+            .social-links {
+                gap: 20px;
+            }
         }
 
     </style>
@@ -538,7 +524,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <h1>Aluguel de Brinquedos para Festas na Penha, SP</h1>
-                <p>Levamos diversão e segurança para sua festa! 🎉 Locação de brinquedos infláveis de qualidade, perfeitos para qualquer evento. Transforme sua celebração em um dia inesquecível!</p>
+                <p>Diversão e segurança para sua festa! Locação de brinquedos de qualidade, perfeitos para qualquer evento!</p>
                 <a href="#produtos" class="btn">Ver Nossos Brinquedos</a>
             </div>
         </section>
@@ -561,7 +547,7 @@
                                 </ul>
                             </div>
                             <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20da%20Cama%20Elástica." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                                <i class="fab fa-whatsapp"></i> Orçar no WhatsApp
+                                <i class="fab fa-whatsapp"></i> Quero reservar
                             </a>
                         </div>
                     </article>
@@ -570,7 +556,7 @@
                         <img src="Castelinho%20Pula%20Pula.webp" alt="Locação de Castelinho Pula Pula inflável em São Paulo.">
                         <div class="product-card-content">
                             <div>
-                                <h3>Castelinho Pula Pula</h3>
+                                <h3 class="product-title-multiline">Pula pula Dino com escorregador</h3>
                                 <ul>
                                     <li>Super colorido e atrativo, sucesso garantido com a criançada</li>
                                     <li>Totalmente seguro e higienizado, com estrutura reforçada</li>
@@ -578,8 +564,8 @@
                                     <li>Entrega, montagem e desmontagem rápida, sem preocupações para você</li>
                                 </ul>
                             </div>
-                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20do%20Castelinho%20Pula%20Pula." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                                <i class="fab fa-whatsapp"></i> Orçar no WhatsApp
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20do%20Pula%20pula%20Dino." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Agende agora mesmo
                             </a>
                         </div>
                     </article>
@@ -596,7 +582,7 @@
                                 </ul>
                             </div>
                             <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20do%20Futebol%20de%20Sabão." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                                <i class="fab fa-whatsapp"></i> Orçar no WhatsApp
+                                <i class="fab fa-whatsapp"></i> Quero agendar
                             </a>
                         </div>
                     </article>
@@ -613,7 +599,7 @@
                                 </ul>
                             </div>
                             <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20do%20Tobogã%20Premium." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                                <i class="fab fa-whatsapp"></i> Orçar no WhatsApp
+                                <i class="fab fa-whatsapp"></i> Agende aqui!
                             </a>
                         </div>
                     </article>
@@ -694,7 +680,7 @@
                     <p><strong><i class="far fa-clock"></i> Horário de Atendimento:</strong></p>
                     <p>Segunda a Sexta: 09:00 às 17:00 | Sábado: 09:00 às 12:00</p>
                     <br>
-                    <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn">Solicitar Orçamento Agora</a>
+                    <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn">Fale conosco</a>
                 </div>
             </section>
         
@@ -704,7 +690,7 @@
         <div class="container">
             <p><strong>Tutty Locação de Brinquedos</strong></p>
             <p>Levando diversão e segurança para sua festa na Penha e toda São Paulo.</p>
-            <div class="social-links" style="margin: 20px 0;">
+            <div class="social-links">
                 <a href="https://www.instagram.com/tuttybrinquedos/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Tutty Brinquedos">
                     <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.07-1.645-.07-4.85s.012-3.584.07-4.85c.148-3.225 1.664-4.771 4.919-4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98C15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/></svg>
                 </a>
@@ -721,7 +707,6 @@
     </a>
 
     <script>
-        // Script para o menu hamburger em telas pequenas
         document.addEventListener('DOMContentLoaded', () => {
             const menuToggle = document.getElementById('menu-toggle');
             const nav = document.querySelector('header nav');
@@ -734,7 +719,6 @@
                 });
             });
 
-            // Script para o FAQ
             const faqItems = document.querySelectorAll('.faq-item');
             faqItems.forEach(item => {
                 const question = item.querySelector('.faq-question');
