@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aluguel de Brinquedos na Penha, SP | Tutty Locação para Festas</title>
-    <meta name="description" content="Aluguel de cama elástica, pula pula, tobogã inflável e futebol de sabão na Penha, SP. ✅ Brinquedos seguros e de qualidade para festas infantis e eventos. Peça seu orçamento via WhatsApp!">
-    <meta name="keywords" content="aluguel de brinquedos penha, locação de brinquedos penha sp, aluguel de cama elástica penha, aluguel de pula pula penha, futebol de sabão para alugar, tobogã inflável sp, brinquedos para festa infantil zona leste, tutty brinquedos, aluguel de brinquedos para eventos corporativos sp, orçamento locação de brinquedos">
+    <meta name="description" content="Aluguel de cama elástica, pula pula, piscina de bolinhas, tobogã inflável e futebol de sabão na Penha, SP. ✅ Brinquedos seguros e de qualidade para festas infantis e eventos. Peça seu orçamento via WhatsApp!">
+    <meta name="keywords" content="aluguel de brinquedos penha, locação de brinquedos penha sp, aluguel de cama elástica penha, aluguel de pula pula penha, aluguel de piscina de bolinhas penha, futebol de sabão para alugar, tobogã inflável sp, brinquedos para festa infantil zona leste, tutty brinquedos, aluguel de brinquedos para eventos corporativos sp, orçamento locação de brinquedos">
     <link rel="canonical" href="https://www.tuttybrinquedos.com.br">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Tutty Locação de Brinquedos | Diversão Garantida na sua Festa!">
@@ -229,7 +229,7 @@
         #produtos { background: var(--background-white); }
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 35px;
         }
         .product-card {
@@ -249,7 +249,7 @@
         }
         .product-card img {
             width: 100%;
-            height: 220px;
+            height: 250px; /* --- Photo size increased --- */
             object-fit: cover;
         }
         .product-card-content {
@@ -284,7 +284,7 @@
         }
         .product-card ul li::before {
             content: '\f058';
-            font-family: 'Font Awesome 5 Free';
+            font-family: 'Font Awesome 6 Free'; /* Corrected font-family */
             font-weight: 900;
             color: var(--accent-orange);
             position: absolute;
@@ -369,7 +369,7 @@
         }
         .faq-question::after {
             content: '\f078';
-            font-family: 'Font Awesome 5 Free';
+            font-family: 'Font Awesome 6 Free'; /* Corrected font-family */
             font-weight: 900;
             transition: transform 0.3s ease;
         }
@@ -398,7 +398,7 @@
             max-width: 600px;
             margin: 0 auto;
         }
-        #contato .contact-info .fab {
+        #contato .contact-info .fab, #contato .contact-info .far {
             vertical-align: -0.1em;
             margin-right: 8px;
         }
@@ -420,11 +420,11 @@
         .social-links a {
             color: var(--text-light);
             font-size: 28px;
-            display: inline-flex; /* Alterado para flexbox */
+            display: inline-flex;
             align-items: center;
             justify-content: center;
             transition: color 0.3s ease, transform 0.3s ease;
-            text-decoration: none; /* [CORREÇÃO] Remove o sublinhado */
+            text-decoration: none;
         }
         .social-links a:hover {
             color: var(--primary-blue);
@@ -483,6 +483,7 @@
             section { 
                 padding: 60px 0; 
             }
+            .products-grid { grid-template-columns: 1fr; }
             .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
             .social-links {
                 gap: 20px;
@@ -524,7 +525,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <h1>Aluguel de Brinquedos para Festas na Penha, SP</h1>
-                <p>Diversão e segurança para sua festa! Locação de brinquedos de qualidade, perfeitos para qualquer evento!</p>
+                <p>Diversão e segurança para sua festa! 🎉 Locação de brinquedos infláveis de qualidade, perfeitos para qualquer evento. Transforme sua celebração em um dia inesquecível!</p>
                 <a href="#produtos" class="btn">Ver Nossos Brinquedos</a>
             </div>
         </section>
@@ -552,11 +553,30 @@
                         </div>
                     </article>
 
+                    <!-- === NEW PRODUCT ADDED: PISCINA DE BOLINHAS === -->
+                    <article class="product-card">
+                        <img src="piscinadebolinha.webp" alt="Aluguel de Piscina de Bolinhas colorida para festa infantil.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3>Piscina de Bolinhas</h3>
+                                <ul>
+                                    <li>Espaçosa e segura para os pequenos mergulharem na diversão.</li>
+                                    <li>Bolinhas coloridas e material resistente.</li>
+                                    <li>Ideal para buffets, festas em casa e eventos escolares.</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20aluguel%20da%20Piscina%20de%20Bolinhas." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Alugue agora
+                            </a>
+                        </div>
+                    </article>
+                    <!-- === END OF NEW PRODUCT === -->
+
                     <article class="product-card">
                         <img src="Castelinho%20Pula%20Pula.webp" alt="Locação de Castelinho Pula Pula inflável em São Paulo.">
                         <div class="product-card-content">
                             <div>
-                                <h3 class="product-title-multiline">Pula pula Dino com escorregador</h3>
+                                <h3 class="multiline-title">Pula pula Dino com escorregador</h3>
                                 <ul>
                                     <li>Super colorido e atrativo, sucesso garantido com a criançada</li>
                                     <li>Totalmente seguro e higienizado, com estrutura reforçada</li>
@@ -588,7 +608,7 @@
                     </article>
                     
                     <article class="product-card">
-                        <img src="Togog%C3%A3%20Premium.webp" alt="Aluguel de Tobogã inflável gigante em São Paulo.">
+                        <img src="Togogã%20Premium.webp" alt="Aluguel de Tobogã inflável gigante em São Paulo.">
                         <div class="product-card-content">
                             <div>
                                 <h3>Tobogã Premium</h3>
@@ -603,6 +623,97 @@
                             </a>
                         </div>
                     </article>
+
+                    <article class="product-card">
+                        <img src="Kid Play Safari.webp" alt="Aluguel de Kid Play Safari inflável para festa infantil.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3>Kid Play Safari</h3>
+                                <ul>
+                                    <li>Aventura na selva para os pequenos exploradores</li>
+                                    <li>Múltiplas atividades: pula-pula, escalada e escorregador</li>
+                                    <li>Totalmente seguro e ideal para buffets e eventos</li>
+                                    <li>Dimensões: 7,50C x 4,50A x 5,50L</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Kid%20Play%20Safari." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar valor
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="Kid Play Patrulha Canina.webp" alt="Locação de brinquedo inflável tema Patrulha Canina.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3>Kid Play Patrulha Canina</h3>
+                                <ul>
+                                    <li>A diversão garantida com os heróis da Patrulha Canina</li>
+                                    <li>Brinquedo temático que encanta todas as crianças</li>
+                                    <li>Cores vibrantes e material de alta resistência</li>
+                                    <li>Dimensões: 6,40C x 3,50A x 5,00L</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Kid%20Play%20Patrulha%20Canina." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Verificar disponibilidade
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="Touro Mecanico Red Bull.webp" alt="Aluguel de Touro Mecânico para festas e eventos em São Paulo.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3>Touro Mecânico</h3>
+                                <ul>
+                                    <li>Desafie seus amigos e teste seu equilíbrio!</li>
+                                    <li>Diversão radical para jovens e adultos</li>
+                                    <li>Operado por monitor treinado para total segurança</li>
+                                    <li>Dimensões: 4,20m x 4,20m</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Touro%20Mecânico." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Peça um orçamento
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="Big Shark com Slide Radical .webp" alt="Aluguel de tobogã inflável Big Shark com escorregador.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3 class="multiline-title">Big Shark com Slide Radical</h3>
+                                <ul>
+                                    <li>Uma aventura aquática com muita emoção</li>
+                                    <li>Escorregador gigante com tema de tubarão</li>
+                                    <li>Ideal para dias quentes e festas na piscina</li>
+                                    <li>Dimensões: 16C x 7,0A x 4,5A</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Big%20Shark." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Saber mais
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="Parque do dino.webp" alt="Locação de Parque do Dino, brinquedo inflável temático.">
+                        <div class="product-card-content">
+                            <div>
+                                <h3>Parque do Dino</h3>
+                                <ul>
+                                    <li>Viaje para a pré-história com este parque completo</li>
+                                    <li>Diversos obstáculos e áreas para pular</li>
+                                    <li>Sucesso absoluto em festas de aniversário</li>
+                                    <li>Dimensões: 5,50L x 6,0C x 4,7A</li>
+                                </ul>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=5511975599423&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Parque%20do%20Dino." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Reservar este
+                            </a>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </section>
@@ -611,10 +722,10 @@
             <div class="container">
                 <h2 class="section-title">Sobre Nós</h2>
                  <div class="section-subtitle">
-                    <p>Localizada na <strong>Penha Grande, São Paulo</strong>, nossa empresa é referência no <strong>aluguel de brinquedos para festas infantis</strong>, eventos corporativos e diversas celebrações.</p>
-                    <p>Com um portfólio diversificado e de alta qualidade, garantimos atrações seguras e inovadoras que transformam qualquer evento em uma experiência inesquecível.</p>
-                    <p>Nosso atendimento personalizado e comprometido com a excelência assegura que cada detalhe seja pensado para encantar crianças e adultos. Escolha a nossa empresa para proporcionar momentos de pura diversão e alegria – peça seu orçamento e surpreenda seus convidados!</p>
-                </div>
+                     <p>Localizada na <strong>Penha Grande, São Paulo</strong>, nossa empresa é referência no <strong>aluguel de brinquedos para festas infantis</strong>, eventos corporativos e diversas celebrações.</p>
+                     <p>Com um portfólio diversificado e de alta qualidade, garantimos atrações seguras e inovadoras que transformam qualquer evento em uma experiência inesquecível.</p>
+                     <p>Nosso atendimento personalizado e comprometido com a excelência assegura que cada detalhe seja pensado para encantar crianças e adultos. Escolha a nossa empresa para proporcionar momentos de pura diversão e alegria – peça seu orçamento e surpreenda seus convidados!</p>
+                 </div>
             </div>
         </section>
         
